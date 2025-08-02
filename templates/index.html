@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker </title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+    <h1>ADD A TRANSACTION</h1>
+    <form action="/" method="POST">
+        <label>Category:</label>
+        <input type="text" name="category" required><br>
+
+        <label>Amount:</label>
+        <input type="number" step="0.01" name="amount" required><br>
+
+        <label>Description:</label>
+        <input type="text" name="description" required><br>
+
+        <label>Type:</label>
+        <select name="transaction_type" required>
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+        </select><br>
+
+        <input type="submit" value="Add Transaction">
+    </form>
+
+    <div class="button-container">
+        <a href="/transactions" class="button" style="margin-top: 10 px;">View Transactions</a>
+        <a href="/balance" class="button">View Balance</a>
+        <a href="/max_transaction" class="button">View Max Transaction</a>
+        <a href="/graph" class="button">View Income vs Expenses Graph</a>
+    </div>
+</body>
+
+</html>

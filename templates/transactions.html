@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Transaction List</title>
+</head>
+<body>
+    <h1>All Transactions</h1>
+
+    <ul>
+        {% for transaction in transactions %}
+            <li>{{ transaction['date'] }} | {{ transaction['transaction_type'].capitalize() }} | {{ transaction['category'] }} | ${{ transaction['amount'] }} | {{ transaction['description'] }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/">Add Another Transaction</a> |
+    <a href="/balance">View Balance</a>
+</body>
+</html>

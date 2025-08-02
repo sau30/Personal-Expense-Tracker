@@ -1,0 +1,79 @@
+[
+    {
+        "date": "2025-01-20",
+        "category": "Personal",
+        "amount": 10000.0,
+        "description": "POCKET MONEY",
+        "transaction_type": "income"
+    },
+    {
+        "date": "2025-02-20",
+        "category": "Party",
+        "amount": 756.0,
+        "description": "Mummy Birthday Party",
+        "transaction_type": "expense"
+    },
+    {
+        "date": "2025-03-20",
+        "category": "Travel",
+        "amount": 630.0,
+        "description": "Home to Clg",
+        "transaction_type": "expense"
+    },
+    {
+        "date": "2025-04-21",
+        "category": "CLOTHES",
+        "amount": 2000.0,
+        "description": "WHITE JACKET",
+        "transaction_type": "expense"
+    },
+    {
+        "date": "2025-05-30",
+        "category": "Price",
+        "amount": 2000.0,
+        "description": "hackathon winner ",
+        "transaction_type": "income"
+    },
+    {
+        "date": "2025-06-30",
+        "category": "Travel",
+        "amount": 3000.0,
+        "description": "Panahala treck",
+        "transaction_type": "expense"
+    },
+    {
+        "date": "2025-07-22",
+        "category": "FOOD",
+        "amount": 487.0,
+        "description": "Nonveg - Thali",
+        "transaction_type": "expense"
+    },
+    {
+        "date": "2025-08-22",
+        "category": "Intership",
+        "amount": 5009.0,
+        "description": "Paid Intership done",
+        "transaction_type": "income"
+    },
+    {
+        "date": "2025-09-22",
+        "category": "Headphones",
+        "amount": 5009.0,
+        "description": "Boat Headphones Taken",
+        "transaction_type": "expense"
+    },
+    {
+        "date": "2025-10-22",
+        "category": "laptop ",
+        "amount": 5600.0,
+        "description": "laptop repair done",
+        "transaction_type": "expense"
+    },
+    {
+        "date": "2025-07-26",
+        "category": "TRIP",
+        "amount": 5000.0,
+        "description": "MANALI TRIP",
+        "transaction_type": "expense"
+    }
+]

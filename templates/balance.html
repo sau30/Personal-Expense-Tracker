@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Balance</title>
+</head>
+<body>
+    <h1>Balance Overview</h1>
+    <p>Total Income: ${{ total_income }}</p>
+    <p>Total Expenses: ${{ total_expenses }}</p>
+    <p>Net Balance: ${{ balance }}</p>
+
+    <a href="/">Add Another Transaction</a> |
+    <a href="/transactions">View Transactions</a>
+</body>
+</html>

@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #e8ec95;
+    /* Light background for contrast */
+    transition: background-color 0.3s ease;
+    /* Smooth background transition */
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #860a0c;
+    /* Darker text for better readability */
+    margin-bottom: 20px;
+    animation: fadeIn 1s;
+    /* Fade-in effect for the heading */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    /* Add border to form */
+    padding: 20px;
+    border-radius: 8px;
+    /* Rounded corners */
+    background-color: #fff;
+    /* White background for form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    transition: transform 0.3s ease;
+    /* Smooth form transition */
+}
+
+form:hover {
+    transform: scale(1.02);
+    /* Slight scaling effect on hover */
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    /* Make labels stand out */
+}
+
+input,
+select {
+    padding: 10px;
+    /* Increased padding for inputs */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    /* Border for input fields */
+    border-radius: 4px;
+    /* Rounded corners for inputs */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth border and shadow transition */
+}
+
+input:focus,
+select:focus {
+    border-color: #4CAF50;
+    /* Highlight border on focus */
+    outline: none;
+    /* Remove default outline */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    /* Subtle glow effect */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack buttons vertically */
+    gap: 10px;
+    /* Space between buttons */
+}
+
+.button {
+    display: inline-block;
+    /* Make the link behave like a button */
+    padding: 10px 15px;
+    /* Padding for the button */
+    background-color: #4CAF50;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+    text-align: center;
+    /* Center the text */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Rounded corners */
+    text-decoration: none;
+    /* Remove underline from links */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth transitions */
+}
+
+.button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+    transform: translateY(-2px);
+    /* Lift effect on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* Rounded corners for list items */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth background transition */
+}
+
+li:hover {
+    background-color: #f1f1f1;
+    /* Change background on hover */
+    transform: scale(1.02);
+    /* Slight scaling effect on hover */
+}
